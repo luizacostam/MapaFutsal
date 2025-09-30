@@ -687,6 +687,7 @@ export const plays: Play[] = [
     type: 'Transição',
     formation: '2-2',
     tags: ['transição', 'pressão'],
+    videoSrc: '/videos/paralela.mp4',
     animation: [
         {
             t: 0,
