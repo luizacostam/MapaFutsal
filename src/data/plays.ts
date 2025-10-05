@@ -682,35 +682,274 @@ export const plays: Play[] = [
     ]
   },
   {
-    id: 'quina 2-2 com passe pela paralela',
-    title: 'Quina 2-2 com passe pela paralela',
-    type: 'Transição',
+    id: 'Lateral com passe pela paralela',
+    title: 'Lateral com passe pela paralela',
+    type: 'Lateral',
     formation: '2-2',
-    tags: ['transição', 'pressão'],
-    videoSrc: '/videos/paralela.mp4',
+    tags: ['transição', 'lateral'],
     animation: [
         {
             t: 0,
             positions: {
-                J1: { x: 30, y: 64.0 },
-                J2: { x: 70, y: 64.0 },
-                J3:  { x: 15, y: 40.0 },
-                J4:  { x: 85, y: 40.0 },
+                J1: { x: 15, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
                 G:  { x: 50, y: 76.0 },
             },
-            ball: { x: 50, y: 76.0 },
+            ball: { x: 4, y: 55.0 },
         },
         {
             t: 1,
             positions: {
-                J1: { x: 30, y: 64.0 },
-                J2: { x: 70, y: 64.0 },
-                J3:  { x: 15, y: 40.0 },
-                J4:  { x: 85, y: 40.0 },
+                J1: { x: 15, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
                 G:  { x: 50, y: 76.0 },
             },
-            ball: { x: 30, y: 64.0 },
+            ball: { x: 15, y: 65.0 },
+        },
+        {
+            t: 2,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 4, y: 55.0 },
+        },
+        {
+            t: 3,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 25, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 25, y: 65.0 },
+        },
+        {
+            t: 4,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 25, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 65.0 },
+        },
+        {
+            t: 5,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 55, y: 65.0 },
+        },
+        {
+            t: 6,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 65.0 },
+        },
+        {
+            t: 7,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 70, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 55, y: 65.0 },
+        },
+        {
+            t: 8,
+            positions: {
+                J1: { x: 60, y: 65.0 },
+                J2: { x: 90, y: 45.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 60, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 60, y: 65.0 },
+        },
+        {
+            t: 9,
+            positions: {
+                J1: { x: 60, y: 65.0 },
+                J2: { x: 90, y: 35.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 50, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 35.0 },
+        },
+        {
+            t: 10,
+            positions: {
+                J1: { x: 60, y: 65.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 35, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 25.0 },
+        },
+        {
+            t: 11,
+            positions: {
+                J1: { x: 60, y: 65.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 35, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 35, y: 10.0 },
+        },
+        {
+            t: 12,
+            positions: {
+                J1: { x: 60, y: 65.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 35, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 45, y: 5.0 },
         }
+    ]
+  },
+  {
+    id: 'Lateral com passe direto no pivô',
+    title: 'Lateral com passe direto no pivô',
+    type: 'Lateral',
+    formation: '2-2',
+    tags: ['transição', 'lateral'],
+    animation: [
+        {
+            t: 0,
+            positions: {
+                J1: { x: 15, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 4, y: 55.0 },
+        },
+        {
+            t: 1,
+            positions: {
+                J1: { x: 15, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 15, y: 65.0 },
+        },
+        {
+            t: 2,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 4, y: 55.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 4, y: 55.0 },
+        },
+        {
+            t: 3,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 25, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 25, y: 65.0 },
+        },
+        {
+            t: 4,
+            positions: {
+                J1: { x: 5, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 25, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 65.0 },
+        },
+        {
+            t: 5,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 55, y: 65.0 },
+        },
+        {
+            t: 6,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 90, y: 65.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 80, y: 10.0 },
+        },
+        {
+            t: 7,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 70, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 80, y: 10.0 },
+        },
+        {
+            t: 8,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 70, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 70, y: 25.0 },
+        },
+        {
+            t: 9,
+            positions: {
+                J1: { x: 55, y: 65.0 },
+                J2: { x: 70, y: 25.0 },
+                J3:  { x: 5, y: 65.0 },
+                J4:  { x: 80, y: 10.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 40, y: 5.0 },
+        },
     ]
   },
   {
@@ -915,6 +1154,127 @@ export const plays: Play[] = [
             },
             ball: { x:37,y:4 },
         }
+    ]
+  },
+  {
+    id: 'Treino de sábado: Movimentação das alas',
+    title: 'Treino de sábado: Movimentação das alas',
+    type: 'Movimentação',
+    formation: '2-2',
+    tags: ['movimentação', 'transição'],
+    videoSrc: '/videos/treinosabado.mp4',
+    animation: [
+        {
+            t: 0,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 76.0 },
+        },
+        {
+            t: 1,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 64.0 },
+        },
+        {
+            t: 2,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 90, y: 55.0 },
+        },
+        {
+            t: 3,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 64.0 },
+        },
+        {
+            t: 4,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 10, y: 55.0 },
+        },
+        {
+            t: 5,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 64.0 },
+        },
+        {
+            t: 6,
+            positions: {
+                J1: { x: 10, y: 55.0 },
+                J2: { x: 90, y: 55.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 36.0 },
+        },
+        {
+            t: 7,
+            positions: {
+                J1: { x: 10, y: 25.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 50, y: 16.0 },
+        },
+        {
+            t: 8,
+            positions: {
+                J1: { x: 25, y: 18.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 25, y: 18.0 },
+            note: 'A pivô segura a bola até que alguém chegue para dar opção de passe e finalizar'
+        },
+        {
+            t: 9,
+            positions: {
+                J1: { x: 25, y: 18.0 },
+                J2: { x: 90, y: 25.0 },
+                J3:  { x: 50, y: 16.0 },
+                J4:  { x: 50, y: 64.0 },
+                G:  { x: 50, y: 76.0 },
+            },
+            ball: { x: 40, y: 3.0 },
+        },
     ]
   }
 ];
